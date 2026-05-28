@@ -1,0 +1,16 @@
+# robots.txt — Flying Horse Travellers Ltd
+# https://flyinghorsebus.com/robots.txt
+
+User-agent: *
+Allow: /
+Allow: /#routes
+Allow: /#schedule
+Allow: /#amenities
+Allow: /#contact
+
+Disallow: /admin/
+Disallow: /api/
+Disallow: /booking/payment/
+Disallow: /booking/processing/
+
+Sitemap: https://flyinghorsebus.com/sitemap.xml
